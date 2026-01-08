@@ -1,16 +1,58 @@
-# React + Vite
+# 🚀 Ryze AI – Modern SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ryze AI is a modern, responsive SaaS landing page built to showcase an AI-powered platform that helps businesses automate workflows, optimize performance, and scale efficiently.
 
-Currently, two official plugins are available:
+This project focuses on **clean UI design, smooth animations, and real SaaS product experience**, inspired by modern AI startups.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎯 Modern SaaS landing page layout
+- 🤖 AI Dashboard Preview with real UI components
+- 📊 Animated metrics and progress indicators
+- 🧭 Smooth page transitions and scroll progress bar
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 📈 Interactive pricing and feature sections
+- 📩 Book a Demo flow with popup, loading state & toast
+- 📰 Newsletter subscription UI
+- 🎨 Clean, premium design with Tailwind CSS
+- ⚡ Smooth animations using Framer Motion
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router
+- **UI Enhancements:** React CountUp
+- **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── DashboardPreview.jsx
+│   ├── Features.jsx
+│   ├── PricingCards.jsx
+│   ├── Testimonials.jsx
+│   ├── CTA.jsx
+│   ├── Footer.jsx
+│   └── ScrollProgress.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Features.jsx
+│   ├── Pricing.jsx
+│   └── BookDemo.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
